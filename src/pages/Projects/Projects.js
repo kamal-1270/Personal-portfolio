@@ -2,6 +2,7 @@ import React from 'react'
 import './Projects.css'
 import imag from '../../images/chartproj1.jpeg'
 import weatherimg from '../../images/weather.jpg'
+import tempconverterproj1 from "../../images/tempconverterproj1.png"
 import tempConvert from '../../images/tempconverterproj2.png'
 const Projects = () => {
   return (
@@ -10,7 +11,7 @@ const Projects = () => {
     <h2 className='col-12 mt-3 mb-1 text-center text-uppercase'>
         Top Recent Projects</h2>
       <hr/>
-      <p className='pb-3 text-center'>👉 Here are my top 2 Projects with live links and source code</p>
+      <p className='pb-3 text-center'>👉 Here are my top many Projects with live links and source code</p>
         <div className='row' id='ads'>
             {/* project 1 */}
     <div className='col-md-4'>
@@ -58,6 +59,29 @@ const Projects = () => {
         </div>
     </div>
     {/* project 3 */}
+    <div className='col-md-4'>
+        <div className='card rounded'>
+            <div className='card-image'>
+                <span className='card-notify-badge'>Web App</span>
+                <img src={tempconverterproj1} alt='project1'/>
+            </div>
+            <div className='card-image-overly m-auto mt-3'>
+                <span className='card-detail-badge'>MongoDB</span>
+                <span className='card-detail-badge'>ExpressJs</span>
+                <span className='card-detail-badge'>React</span>
+                <span className='card-detail-badge'>NodeJs</span>
+            </div>
+            <div className='card-body text-center'>
+                <div className='ad-title m-auto'>
+                    <h5 className='text-uppercase'>
+                    🛒 V-mart Bazaar
+                    </h5>
+                </div>
+                <a className='ad-btn' href='https://github.com/kamal-1270/Mern-Stack_Vmart_Bazaar'>view</a>
+            </div>
+        </div>
+    </div>
+    {/* project 4 */}
     
         </div>
     </div>
